@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+.main {
+    background-image: url(../image/Had.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #1f1f1d;
+    flex: 0 0 380px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-shadow: 0 0 3px #cfa724, 0 0 5px #ff3300;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 40px;
+    color: rgb(255, 181, 7);
+}
+
+h1 span {
+    color: #fbe731;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 19px;
+}
+
+.main a,
+.promo a {
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 20px 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.promo {
+    padding-top: 186px;
+    padding-bottom: 186px;
+}
+
+.promo-left,
+.promo-right {
+    flex: 0 0 49%;
+    color: #fff;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.promo-left {
+    background-image: url(../image/Haney1.jpeg);
+    border-radius: 5%;
+    padding: 25px 12px;
+}
+
+.promo-right {
+    background-image: url(../image/Haney2.jpeg);
+    border-radius: 5%;
+    padding: 25px 12px 200px;
+}
+
+.sale {
+    font-size: 14px;
+    font-weight: 900;
+    background: #F37335;
+    padding: 5px 19px;
+    border-radius: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    
+}
+
+.cost {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 17px;
+    color: #FBB731;
+    text-shadow: 0 0 10px #13120e, 0 0 5px #ffd000;
+}
+
+.description {
+    color: #FBB731;;
+    font-size: 35px;
+    
+    margin-bottom: 17px;
+    text-shadow: 0 0 10px #13120e, 0 0 5px #ffd000;
+}
+
+.promo-left .description {
+    max-width: 392px;
+}
+
+.promo-right .description {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.free {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FBB731;
+    text-shadow: 0 0 6px #13120e, 0 0 5px #ffd000;
+    
+}
+
+.footer {
+    background-image: url(../image/OIG.jpeg);
+    background-size: cover;
+    width: 100%;
+    text-shadow: 0 0 2px #000000, 0 0 5px #ffd622;
+    margin: 0 auto;
+
+    justify-content: center;
+    color: #fff;
+    padding-top: 118px;
+    padding-bottom: 40px;
+}
+
+
+.item {
+    flex: 0 0 auto;
+}
+
+.item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.item ul,
+.tel ul {
+    list-style-type: none;
+}
+
+.item li {
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.tel ul {
+    font-size: 20px;
+    color: #FBB731;
+}
+
+.tel li {
+    margin-bottom: 12px;
+}
