@@ -226,3 +226,73 @@ h1 span {
 .tel li {
     margin-bottom: 12px;
 }
+
+@media (max-width: 812px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .promo {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+    .footer{
+        padding: 10px;
+    }
+
+}
+
+
+
+
+@media (max-width: 412px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+
+    .footer{
+        padding: 10px;
+    }
+    .promo-left, .promo-right, .promo-left1, .promo-right1 {
+        
+        border-radius: 8%;
+    }
+
+    .promo-left, .promo-right, .promo-left1, .promo-right1 {
+        border-radius: 8%;
+       
+    }
+
+}
+
+@media (max-width: 312px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+     
+    .footer{
+        padding: 10px;
+    }
+    
+    h1{
+        padding: 10px; 
+    }
+}
